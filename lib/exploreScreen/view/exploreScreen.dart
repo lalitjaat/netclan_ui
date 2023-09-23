@@ -1,10 +1,13 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:geocoding_platform_interface/geocoding_platform_interface.dart';
 import 'package:geolocator/geolocator.dart';
+import 'package:geolocator_platform_interface/src/models/position.dart';
 import 'package:netclan_explorer/constants.dart';
 import 'package:netclan_explorer/exploreScreen/components/locationWidget.dart';
 import 'package:netclan_explorer/exploreScreen/components/topNavBar.dart';
 import 'package:netclan_explorer/refineScreen/view/view.dart';
+import 'package:permission_handler/permission_handler.dart';
 
 class exploreScreen extends StatefulWidget {
   const exploreScreen({
@@ -17,13 +20,19 @@ class exploreScreen extends StatefulWidget {
 
 class _exploreScreenState extends State<exploreScreen> {
   // ignore: unused_field
-  late Future<Position> _position;
   late Future<List<Placemark>> _cityAndCountry;
+
+var status = Permission.location.request();
+
+void get ()async{
+await status;
+}
+  
 
   @override
   void initState() {
-    super.initState();
-    _position = getCurrentLocation();
+Geolocator.requestPermission();    super.initState();
+     getCurrentLocation();
     _cityAndCountry = getCityAndCountry();
   }
 
@@ -56,10 +65,10 @@ resizeToAvoidBottomInset: false,
               child: _tabBar,
             ),
           ),
-          toolbarHeight: 70,
-          leading: const Icon(
+          toolbarHeight: 70.h,
+          leading:  Icon(
             Icons.sort_sharp,
-            size: 35,
+            size: 35.sp,
             color: Colors.white,
           ),
           actions: [
@@ -68,11 +77,11 @@ resizeToAvoidBottomInset: false,
                 Navigator.of(context).push(MaterialPageRoute(
                     builder: (context) => const refineScreen()));
               },
-              child: const Column(
+              child:  Column(
                 children: [
                   Icon(
                     Icons.checklist,
-                    size: 30,
+                    size: 30.sp,
                     color: Colors.white,
                   ),
                   Text(

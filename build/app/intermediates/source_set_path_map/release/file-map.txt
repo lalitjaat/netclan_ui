@@ -15,3 +15,4 @@ com.example.netclan_explorer.app-mergeReleaseResources-13 /Users/lalitchoudhary/
 com.example.netclan_explorer.app-merged_res-14 /Users/lalitchoudhary/Desktop/Flutter Projects/netclan_explorer/build/app/intermediates/merged_res/release
 com.example.netclan_explorer.app-packaged_res-15 /Users/lalitchoudhary/Desktop/Flutter Projects/netclan_explorer/build/geocoding_android/intermediates/packaged_res/release
 com.example.netclan_explorer.app-packaged_res-16 /Users/lalitchoudhary/Desktop/Flutter Projects/netclan_explorer/build/geolocator_android/intermediates/packaged_res/release
+com.example.netclan_explorer.app-packaged_res-17 /Users/lalitchoudhary/Desktop/Flutter Projects/netclan_explorer/build/permission_handler_android/intermediates/packaged_res/release

@@ -27,6 +27,7 @@ INJECTED from /Users/lalitchoudhary/Desktop/Flutter Projects/netclan_explorer/an
 INJECTED from /Users/lalitchoudhary/Desktop/Flutter Projects/netclan_explorer/android/app/src/main/AndroidManifest.xml:1:1-36:12
 INJECTED from /Users/lalitchoudhary/Desktop/Flutter Projects/netclan_explorer/android/app/src/main/AndroidManifest.xml:1:1-36:12
 MERGED from /Users/lalitchoudhary/Desktop/Flutter Projects/netclan_explorer/android/app/src/main/AndroidManifest.xml:1:1-36:12
+MERGED from [:permission_handler_android] /Users/lalitchoudhary/Desktop/Flutter Projects/netclan_explorer/build/permission_handler_android/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
 MERGED from [:geolocator_android] /Users/lalitchoudhary/Desktop/Flutter Projects/netclan_explorer/build/geolocator_android/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-17:12
 MERGED from [:geocoding_android] /Users/lalitchoudhary/Desktop/Flutter Projects/netclan_explorer/build/geocoding_android/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
 MERGED from [androidx.window:window-java:1.0.0-beta04] /Users/lalitchoudhary/.gradle/caches/transforms-3/ae81e06d24c799147c26814497a2a305/transformed/jetified-window-java-1.0.0-beta04/AndroidManifest.xml:17:1-23:12
@@ -79,6 +80,8 @@ uses-sdk
 INJECTED from /Users/lalitchoudhary/Desktop/Flutter Projects/netclan_explorer/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/lalitchoudhary/Desktop/Flutter Projects/netclan_explorer/android/app/src/main/AndroidManifest.xml
 INJECTED from /Users/lalitchoudhary/Desktop/Flutter Projects/netclan_explorer/android/app/src/main/AndroidManifest.xml
+MERGED from [:permission_handler_android] /Users/lalitchoudhary/Desktop/Flutter Projects/netclan_explorer/build/permission_handler_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:permission_handler_android] /Users/lalitchoudhary/Desktop/Flutter Projects/netclan_explorer/build/permission_handler_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [:geolocator_android] /Users/lalitchoudhary/Desktop/Flutter Projects/netclan_explorer/build/geolocator_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [:geolocator_android] /Users/lalitchoudhary/Desktop/Flutter Projects/netclan_explorer/build/geolocator_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [:geocoding_android] /Users/lalitchoudhary/Desktop/Flutter Projects/netclan_explorer/build/geocoding_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41

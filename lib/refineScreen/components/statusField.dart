@@ -1,4 +1,3 @@
-
 import 'package:flutter/material.dart';
 import 'package:netclan_explorer/constants.dart';
 
@@ -13,22 +12,18 @@ class statusField extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      
       child: TextField(
+        keyboardType: TextInputType.name,
         maxLines: null,
         minLines: null,
-        
-        strutStyle: const StrutStyle(
-          
-          
-        ),
+        strutStyle: const StrutStyle(),
         cursorColor: primaryColor,
         showCursor: true,
         maxLength: 250,
         controller: textEditingController,
         decoration: InputDecoration(
-            focusedBorder: OutlineInputBorder(
-                borderSide: BorderSide(color: primaryColor)),
+            focusedBorder:
+                OutlineInputBorder(borderSide: BorderSide(color: primaryColor)),
             border: const OutlineInputBorder(
                 borderRadius: BorderRadius.horizontal(
                     left: Radius.circular(10), right: Radius.circular(10))),

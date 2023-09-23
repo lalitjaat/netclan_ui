@@ -31,6 +31,7 @@ ADDED from /Users/lalitchoudhary/Desktop/Flutter Projects/netclan_explorer/andro
 INJECTED from /Users/lalitchoudhary/Desktop/Flutter Projects/netclan_explorer/android/app/src/main/AndroidManifest.xml:1:1-36:12
 INJECTED from /Users/lalitchoudhary/Desktop/Flutter Projects/netclan_explorer/android/app/src/main/AndroidManifest.xml:1:1-36:12
 INJECTED from /Users/lalitchoudhary/Desktop/Flutter Projects/netclan_explorer/android/app/src/main/AndroidManifest.xml:1:1-36:12
+MERGED from [:permission_handler_android] /Users/lalitchoudhary/Desktop/Flutter Projects/netclan_explorer/build/permission_handler_android/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-9:12
 MERGED from [:geolocator_android] /Users/lalitchoudhary/Desktop/Flutter Projects/netclan_explorer/build/geolocator_android/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-17:12
 MERGED from [:geocoding_android] /Users/lalitchoudhary/Desktop/Flutter Projects/netclan_explorer/build/geocoding_android/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-9:12
 MERGED from [androidx.window:window-java:1.0.0-beta04] /Users/lalitchoudhary/.gradle/caches/transforms-3/ae81e06d24c799147c26814497a2a305/transformed/jetified-window-java-1.0.0-beta04/AndroidManifest.xml:17:1-23:12
@@ -47,11 +48,11 @@ MERGED from [androidx.customview:customview:1.0.0] /Users/lalitchoudhary/.gradle
 MERGED from [androidx.core:core:1.9.0] /Users/lalitchoudhary/.gradle/caches/transforms-3/c2aff38445ebad8ddeaa989ecf50f56e/transformed/core-1.9.0/AndroidManifest.xml:17:1-30:12
 MERGED from [androidx.annotation:annotation-experimental:1.3.0] /Users/lalitchoudhary/.gradle/caches/transforms-3/937d6edc8055f6701a18eeac1a67afe6/transformed/jetified-annotation-experimental-1.3.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] /Users/lalitchoudhary/.gradle/caches/transforms-3/9a249567dcb8025899915ed9a2426636/transformed/lifecycle-runtime-2.3.1/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/lalitchoudhary/.gradle/caches/transforms-3/47ecd4e588b99ef3b772f04d5aa6c9b7/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
-MERGED from [androidx.tracing:tracing:1.0.0] /Users/lalitchoudhary/.gradle/caches/transforms-3/cda2a1ca4d3bd6aae60d8d586ec4f3ff/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/lalitchoudhary/.gradle/caches/transforms-3/61969234c20435b339c4ea8c72dc0f22/transformed/jetified-savedstate-1.0.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/lalitchoudhary/.gradle/caches/transforms-3/7fcad9088319f1ebd7850d62df4bcaf7/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/lalitchoudhary/.gradle/caches/transforms-3/c9c1416cfdc16237773b18cd0425609e/transformed/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/lalitchoudhary/.gradle/caches/transforms-3/cda2a1ca4d3bd6aae60d8d586ec4f3ff/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/lalitchoudhary/.gradle/caches/transforms-3/47ecd4e588b99ef3b772f04d5aa6c9b7/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
 MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/lalitchoudhary/.gradle/caches/transforms-3/d67fb65d423f69a271e62fa0f5833fa6/transformed/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/lalitchoudhary/.gradle/caches/transforms-3/03b9b3b952540ee8cedf6c096276d934/transformed/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:17:1-22:12
 INJECTED from /Users/lalitchoudhary/Desktop/Flutter Projects/netclan_explorer/android/app/src/main/AndroidManifest.xml:1:1-36:12
@@ -83,6 +84,8 @@ uses-sdk
 INJECTED from /Users/lalitchoudhary/Desktop/Flutter Projects/netclan_explorer/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/lalitchoudhary/Desktop/Flutter Projects/netclan_explorer/android/app/src/main/AndroidManifest.xml
 INJECTED from /Users/lalitchoudhary/Desktop/Flutter Projects/netclan_explorer/android/app/src/main/AndroidManifest.xml
+MERGED from [:permission_handler_android] /Users/lalitchoudhary/Desktop/Flutter Projects/netclan_explorer/build/permission_handler_android/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:permission_handler_android] /Users/lalitchoudhary/Desktop/Flutter Projects/netclan_explorer/build/permission_handler_android/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
 MERGED from [:geolocator_android] /Users/lalitchoudhary/Desktop/Flutter Projects/netclan_explorer/build/geolocator_android/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
 MERGED from [:geolocator_android] /Users/lalitchoudhary/Desktop/Flutter Projects/netclan_explorer/build/geolocator_android/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
 MERGED from [:geocoding_android] /Users/lalitchoudhary/Desktop/Flutter Projects/netclan_explorer/build/geocoding_android/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
@@ -115,16 +118,16 @@ MERGED from [androidx.annotation:annotation-experimental:1.3.0] /Users/lalitchou
 MERGED from [androidx.annotation:annotation-experimental:1.3.0] /Users/lalitchoudhary/.gradle/caches/transforms-3/937d6edc8055f6701a18eeac1a67afe6/transformed/jetified-annotation-experimental-1.3.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] /Users/lalitchoudhary/.gradle/caches/transforms-3/9a249567dcb8025899915ed9a2426636/transformed/lifecycle-runtime-2.3.1/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] /Users/lalitchoudhary/.gradle/caches/transforms-3/9a249567dcb8025899915ed9a2426636/transformed/lifecycle-runtime-2.3.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/lalitchoudhary/.gradle/caches/transforms-3/47ecd4e588b99ef3b772f04d5aa6c9b7/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/lalitchoudhary/.gradle/caches/transforms-3/47ecd4e588b99ef3b772f04d5aa6c9b7/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.tracing:tracing:1.0.0] /Users/lalitchoudhary/.gradle/caches/transforms-3/cda2a1ca4d3bd6aae60d8d586ec4f3ff/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.tracing:tracing:1.0.0] /Users/lalitchoudhary/.gradle/caches/transforms-3/cda2a1ca4d3bd6aae60d8d586ec4f3ff/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/lalitchoudhary/.gradle/caches/transforms-3/61969234c20435b339c4ea8c72dc0f22/transformed/jetified-savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/lalitchoudhary/.gradle/caches/transforms-3/61969234c20435b339c4ea8c72dc0f22/transformed/jetified-savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/lalitchoudhary/.gradle/caches/transforms-3/7fcad9088319f1ebd7850d62df4bcaf7/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/lalitchoudhary/.gradle/caches/transforms-3/7fcad9088319f1ebd7850d62df4bcaf7/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/lalitchoudhary/.gradle/caches/transforms-3/c9c1416cfdc16237773b18cd0425609e/transformed/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/lalitchoudhary/.gradle/caches/transforms-3/c9c1416cfdc16237773b18cd0425609e/transformed/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/lalitchoudhary/.gradle/caches/transforms-3/cda2a1ca4d3bd6aae60d8d586ec4f3ff/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/lalitchoudhary/.gradle/caches/transforms-3/cda2a1ca4d3bd6aae60d8d586ec4f3ff/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/lalitchoudhary/.gradle/caches/transforms-3/47ecd4e588b99ef3b772f04d5aa6c9b7/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/lalitchoudhary/.gradle/caches/transforms-3/47ecd4e588b99ef3b772f04d5aa6c9b7/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/lalitchoudhary/.gradle/caches/transforms-3/d67fb65d423f69a271e62fa0f5833fa6/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/lalitchoudhary/.gradle/caches/transforms-3/d67fb65d423f69a271e62fa0f5833fa6/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/lalitchoudhary/.gradle/caches/transforms-3/03b9b3b952540ee8cedf6c096276d934/transformed/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44

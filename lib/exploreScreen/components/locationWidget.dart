@@ -1,13 +1,26 @@
-
 import 'package:flutter/material.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:geocoding_platform_interface/geocoding_platform_interface.dart';
 import 'package:geolocator/geolocator.dart';
+import 'package:permission_handler/permission_handler.dart';
 
+ 
+void asklocation()async{
+Map<Permission, PermissionStatus> status = await [
+Permission.location
+ ].request () ;
+}
 
+void getlocation() async{
+  if(await Permission.location.serviceStatus.isEnabled){}
+  else{
+    print("Not got location");
+  }
+}
 
 Future<Position> getCurrentLocation() async {
     return await Geolocator.getCurrentPosition(
-      desiredAccuracy: LocationAccuracy.high,
+      desiredAccuracy: LocationAccuracy.high,forceAndroidLocationManager: true
     );
   }
 
@@ -35,12 +48,12 @@ class locationWidget extends StatelessWidget {
           final country = snapshot.data![0].country ?? '';
           return Text(
             '$city, $country',
-            style: const TextStyle(fontSize: 18, color: Colors.white),
+            style:  TextStyle(fontSize: 15.sp, color: Colors.white),
           );
         } else if (snapshot.hasError) {
           return Text('Error: ${snapshot.error}');
         } else {
-          return const SizedBox.shrink();
+          return Text("Loading...", style:  TextStyle(fontSize: 15.sp, color: Colors.white));
         }
       },
     );
